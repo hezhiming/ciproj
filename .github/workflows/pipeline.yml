@@ -33,4 +33,4 @@ jobs:
         run: flake8 ciproj
 
       - name: pytest
-        run: pytest  --showlocals --color=no --cov-report html --cov-config=.coveragerc --cov ciproj tests
+        run: pytest  --showlocals --color=no --cov-config=.coveragerc --cov ciproj tests
