@@ -11,7 +11,7 @@ import pytest
     ]
 )
 def test_add(a, b, expected):
-    assert mod.Calculator(a, b) == expected, '两者要相等'
+    assert mod.Calculator(a, b).add(a, b) == expected, '两者要相等'
 
 
 def test_sub():
