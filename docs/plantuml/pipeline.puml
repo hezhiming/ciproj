@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+partition 前置{
+    :安装必要的包;
+}
+
+:静态检查;
+partition lint {
+fork
+    :flake8;
+fork again
+    :pylint;
+end fork
+}
+:单元测试;
+:覆盖率;
+:安全编码;
+
+stop
+
+@enduml
