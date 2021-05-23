@@ -34,3 +34,5 @@ jobs:
 
       - name: pytest
         run: pytest --verbose  --showlocals --color=no --cov-config=.coveragerc --cov ciproj tests
+      - name: 安全编码
+        run: bandit -r ciproj/
