@@ -18,6 +18,7 @@ class Calculator:
         self.num1 = num1
         self.num2 = num2
 
+    # pylint: disable=R0201
     def add(self, num1: int, num2: int):
         """ add func
 
@@ -27,7 +28,7 @@ class Calculator:
         """
         return num1 + num2
 
-    def sunum2(self, num1, num2):
+    def sub(self, num1, num2):
         """sunum2 func
 
         :param num1:
