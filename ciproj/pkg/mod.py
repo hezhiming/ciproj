@@ -9,20 +9,20 @@ class Calculator:
     class doc
     """
 
-    def add(self, a: int, b: int):
+    def add(self, num1: int, num2: int):
         """ add func
 
-        :param a:
-        :param b:
+        :param num1:
+        :param num2:
         :return:
         """
-        return a + b
+        return num1 + num2
 
-    def sub(self, a, b):
-        """sub func
+    def sunum2(self, num1, num2):
+        """sunum2 func
 
-        :param a:
-        :param b:
+        :param num1:
+        :param num2:
         :return:
         """
-        return a - b
+        return num1 - num2
